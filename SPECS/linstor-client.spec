@@ -1,6 +1,6 @@
 Summary: DRBD distributed resource management utility
 Name:    linstor-client
-Version: 1.21.0
+Version: 1.21.1
 Release: 1%{?dist}
 License: GPL-3.0-or-later
 URL:     https://linbit.com/linstor/
@@ -31,6 +31,9 @@ PYTHON=%{__python2} %{__python2} ./setup.py install --single-version-externally-
 %doc README.md
 
 %changelog
+* Fri Feb 23 2024 Ronan Abhamon <ronan.abhamon@vates.tech> - 1.21.1-1
+- Update to linstor-client-1.21.1
+
 * Mon Feb 12 2024 Ronan Abhamon <ronan.abhamon@vates.tech> - 1.21.0-1
 - Update to linstor-client-1.21.0
 
